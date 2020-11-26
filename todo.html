@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo.html</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        } 
+         tr{
+            color:rgb(247, 242, 242);
+            background-color:rgb(22, 41, 4);
+            width:200 px;
+            height:50px;
+            
+            margin-left: 500px;
+            
+        } 
+         table{
+            margin-left: 350px;
+            margin-top: 20px;
+            border:2px solid black;
+        } 
+        input{
+            width:100px;
+            height:20px;
+        } 
+        
+        button{
+            width:150px;
+            height:50px;
+            background-color: rgb(241, 238, 18);
+            margin-left: 600px;
+            margin-top: 10px;
+            color:rgb(20, 20, 20);
+            border:2px solid white;
+            font-weight: bold;
+        } 
+    </style>
+</head>
+<body>
+    <body background="images/4.jpg">
+        <!--navbar-->
+        
+      <!-- /  <div class="main2"> -->
+            <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(4, 63, 48);">
+                <a href="#" class="navbar-brand" style="color:white">
+                    <img src="" alt="" > My todolist
+                </a>
+            
+                    <ul class="navbar-nav ml-auto">
+            
+                        <!-- <li class="nav-item" class=""> <a href="demo.html" class="nav-link" style="color:white" >TO DO LIST </a></li> -->
+                        <li class="nav-item"> <a href="index.html" class="nav-link" style="color:white" >LOGOUT</a></li>
+                    </ul>
+            
+            </nav>
+    
+    
+        
+    <!--/navbar-->
+
+
+    <div id="demo">
+    
+        <button type="submit" onclick="ajax();" >CLICK HERE TO SEE TO-DO-LIST </button>
+    </div>
+    
+        
+    <script src="javascript/api.js"></script>
+    <script src="javascript/promise.js"></script>
+</body>
+</html>

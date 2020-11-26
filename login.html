@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>login page</title>
+</head>
+<body background="images/4.jpg">
+    <!--navbar-->
+    
+  <!-- /  <div class="main2"> -->
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(4, 63, 48);">
+            <a href="#" class="navbar-brand" style="color:white">
+                <img src="" alt="" > My todolist
+            </a>
+        
+                <ul class="navbar-nav ml-auto">
+        
+                    <!-- <li class="nav-item" class=""> <a href="demo.html" class="nav-link" style="color:white" >TO DO LIST </a></li> -->
+                    <!-- <li class="nav-item"> <a href="index.html" class="nav-link" style="color:white" >LOGOUT</a></li> -->
+                </ul>
+        
+        </nav>
+
+
+    
+<!--/navbar-->
+<div class="main">
+<form action="todo.html" class="container" onsubmit="return validation();">
+    <div class="logo">
+    <img src="images/logo.png" width=80px height=80px>
+</div>
+    <div class="loginbox">
+        <input type="text" placeholder="username" id="username" required><br>
+        <input type="password" placeholder="password" id="password" required><br>
+        <input type="submit" value="Sign In" id="button">
+    </div>
+</div>
+
+<script src="javascript/login.js"></script>
+
+<script src="javascript/api.js"></script>
+
+</body>
+
+</html>
